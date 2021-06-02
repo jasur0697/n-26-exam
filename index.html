@@ -12,11 +12,9 @@
 </head>
 <body>
   
-
 <header>
   <div class="container">
-  <nav   class="navbar">
-   
+  <nav class="navbar">
     
     <a class="navbar-logo" href="#">
             <img src="./images/pixer-logo.svg" class="pixer-logo" srcset="./images/pixer-logo.svg 1x, ./images/pixer-logo.svg@2x 2x"  width="58" height="20" alt="pixer">
@@ -34,22 +32,18 @@
           <li class="dropdown-list"><a href="./services.html" class="menu-list-els">Grafik dizayn</a></li>
           <li class="dropdown-list"><a href="./services.html" class="menu-list-els">CRM tizim</a></li>
         </ul>
-    
-      
       </li>
-
 
       <li><a class="menu-list-els" href="./portfolio.html">Portfolio</a></li>
       <li><a class="menu-list-els" href="./team.html">Jamoa</a></li>
       <li><a class="menu-list-els" href="./blog.html">Blog</a></li>
       <li><a class="menu-list-els" href="./contacts.html">Kontaktlar</a></li>
-      <li><a class="menu-list-els contact-number" href="tel:+998909213711">+998 90 921 37 11</a></li>
+      <li>
+        <a class="menu-list-els contact-number" href="tel:+998909213711">+998 90 921 37 11</a>
+      </li>
     </ul>
-
-    
-  
   </nav>
-</div>
+
 </header>
 
 
@@ -227,18 +221,18 @@ BoR
 
   <form class="form-container" action="/action_page.php" method="POST">
 
-      <input class="info-inputs" type="text" name="name" id="name" placeholder="Ismingiz" aria-label="name">
+      <input class="info-inputs" type="text" name="name" id="name" placeholder="Ismingiz" aria-label="name" required>
 
 
-      <input class="info-inputs" type="tel" name="tel" id="tel" placeholder="Telefon raqamingiz" aria-label="telephone number">
+      <input class="info-inputs" type="tel" name="tel" id="tel" placeholder="Telefon raqamingiz" aria-label="telephone number" required>
  
 
 
-      <select class="info-inputs" name="services" id="services" aria-label="services">
-        <option value="1">Xizmat turi</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
+      <select class="info-inputs" name="services" id="services" aria-label="services" required>
+        <option value="" disabled selected>Xizmat turi</option>
+        <option value="smm">Saab</option>
+        <option value="bot">Mercedes</option>
+        <option value="crm">Audi</option>
       </select>
    
       <a class="order-link" href="#">Buyurtma berish</a>
@@ -267,6 +261,7 @@ BoR
     <ul class="footer-lists-container">
       <li><a class="footer-lists"  href="./index.html"></a></li>
       <li><a class="footer-lists" href="">Bosh sahifa</a></li>
+      <li><a class="footer-lists" href="./services.html">Xizmatlar</a></li>
       <li><a class="footer-lists" href="./portfolio.html">Portfolio</a></li>
       <li><a class="footer-lists" href="./team.html">Jamoa</a></li>
       <li><a class="footer-lists" href="./blog.html">Blog</a></li>
@@ -275,20 +270,20 @@ BoR
   </div>
 
 
-  <div class="footer-social">
+<div class="footer-social">
   <p class="footer-headings" >Biz internetda</p>
     <ul class="footer-lists-container">
       <li>
-        <img class="soc-icons" src="./images/telegram.svg" alt="telegram">Telegram
-        <a class="footer-lists" href="https://t.me/pathtosuccesss/1753"></a>
+
+        <a class="footer-lists telegram-icon" target="_blank" href="https://t.me/pathtosuccesss/1753">Telegram</a>
       </li>
       <li>
-        <img class="soc-icons" src="./images/facebook.svg" alt="facebook">Facebook
-        <a class="footer-lists" href="https://www.facebook.com/campaign/landing.php?campaign_id=1635645080&extra_1=s%7Cc%7C313664978087%7Ce%7Cfacebook%27%7C&placement=&creative=313664978087&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1635645080%26adgroupid%3D61402566414%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D1028523%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjwktKFBhCkARIsAJeDT0id7oNNq-ayEngCz09UZr2QM4FRxQfBoDk5IpguK5-PHh4Bfn1Sy4gaAvFUEALw_wcB"></a>
+  
+        <a class="footer-lists facebook-icon" target="_blank" href="https://rb.gy/ngw6pr">Facebook</a>
       </li>
       <li>
-        <img class="soc-icons" src="./images/insta.svg" alt="instagram">Instagram
-        <a class="footer-lists" href="https://www.instagram.com/jasur_0697/">
+
+        <a class="footer-lists instagram-icon" target="_blank" href="https://www.instagram.com/jasur_0697/">Instagram
         </a>
       </li>
     </ul>
