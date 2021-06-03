@@ -8,42 +8,55 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="./css/css-mini.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   
-<header>
-  <div class="container">
+<header class="header">
+ <div class="container">
   <nav class="navbar">
-    
+
     <a class="navbar-logo" href="#">
             <img src="./images/pixer-logo.svg" class="pixer-logo" srcset="./images/pixer-logo.svg 1x, ./images/pixer-logo.svg@2x 2x"  width="58" height="20" alt="pixer">
     </a>
 
     <ul class="nav-menu-list">
-      <li ><a class="menu-list-els" href="./index.html">Bosh sahifa</a></li>
+      <li class="nav-items"><a class="menu-list-links" href="./index.html">Bosh sahifa</a></li>
       
-      <li class="nav-list">
-        <a class="menu-list-els" href="#services">Xizmatlar</a>
-        <ul class="dropdown-container">
-          <li class="dropdown-list"><a href="./services.html" class="menu-list-els">Vebsayt</a></li>
-          <li class="dropdown-list"><a href="./services.html" class="menu-list-els">Telegram bot</a></li>
-          <li class="dropdown-list"><a href="./services.html" class="menu-list-els">SMM</a></li>
-          <li class="dropdown-list"><a href="./services.html" class="menu-list-els">Grafik dizayn</a></li>
-          <li class="dropdown-list"><a href="./services.html" class="menu-list-els">CRM tizim</a></li>
-        </ul>
-      </li>
+      <li class="nav-items">
+            <a class="menu-list-links" href="services.html">Xizmatlar</a>
+            <ul class="service-dropdown-list">
+              <li class="dropdown-item-list">
+                <a class="dropdown-link" href="website.html">Vebsayt</a>
+              </li>
+              <li class="dropdown-item-list">
+                <a class="dropdown-link" href="telegram-bot.html">Telegram bot</a>
+              </li>
+              <li class="dropdown-item-list">
+                <a class="dropdown-link" href="smm.html">SMM
+                </a>
+              </li>
+              <li class="dropdown-item-list">
+                <a class="dropdown-link" href="graphic-design.html">Grafik dizayn</a>
+              </li>
+              <li class="dropdown-item-list">
+                <a class="dropdown-link" href="crm-system.html">CRM tizim</a>
+              </li>
+            </ul>
+          </li>
 
-      <li><a class="menu-list-els" href="./portfolio.html">Portfolio</a></li>
-      <li><a class="menu-list-els" href="./team.html">Jamoa</a></li>
-      <li><a class="menu-list-els" href="./blog.html">Blog</a></li>
-      <li><a class="menu-list-els" href="./contacts.html">Kontaktlar</a></li>
-      <li>
-        <a class="menu-list-els contact-number" href="tel:+998909213711">+998 90 921 37 11</a>
+      <li  class="nav-items"><a class="menu-list-links" href="./portfolio.html">Portfolio</a></li>
+      <li  class="nav-items"><a class="menu-list-links" href="./team.html">Jamoa</a></li>
+      <li  class="nav-items"><a class="menu-list-links" href="./blog.html">Blog</a></li>
+      <li  class="nav-items"><a class="menu-list-links" href="./contacts.html">Kontaktlar</a></li>
+      <li  class="nav-items">
+        <a class="menu-list-links contact-number" href="tel:+998909213711">+998 90 921 37 11</a>
       </li>
     </ul>
-  </nav>
 
+  </nav>
+</div>
 </header>
 
 
@@ -140,7 +153,6 @@
             </p>
         </div>
 
-BoR
 
    <ul class="process-list-container">
      <li class="process-list">
@@ -228,7 +240,7 @@ BoR
  
 
 
-      <select class="info-inputs" name="services" id="services" aria-label="services" required>
+      <select class="info-inputs" name="services" id="services1" aria-label="services" required>
         <option value="" disabled selected>Xizmat turi</option>
         <option value="smm">Saab</option>
         <option value="bot">Mercedes</option>
